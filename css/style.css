@@ -1,0 +1,68 @@
+* { margin:0; padding: 0; outline: none; list-style: none}
+body { min-height: 100%; padding-top: 70px; font-family: 'Montserrat', sans-serif;}
+
+/* TOPO */
+.topo { background-color: #ffca05; }
+.top_tit { color:#fff; text-align:center; font-size:15px; letter-spacing:2px; text-transform: uppercase;}
+.top_nav { position:absolute; left:2%}
+
+/* ICONs */
+.circle { width: 21px; height: 21px; border-radius: 21px; border: 2px solid rgba(255,255,255,0.3); position: relative; }
+.arrow { width: 27px; height: 2px; position: absolute; background-color: #ffffff; top:49.8%; left:-5px}
+.arrow:after { width: 7px; height: 2px; display: block; content: ' '; position: absolute; transform:rotate(45deg); background-color: #ffffff; top:2px; left:-2px }
+.arrow:before { width: 7px; height: 2px; display: block; content: ' '; position: absolute; transform:rotate(-45deg); background-color: #ffffff; top:-2px; left:-2px }
+
+.arrow-blue { width: 70px; height: 2px; position: absolute; background-color: #52b7fa; top:49.8%; left:-5px}
+.arrow-blue:after { width: 10px; height: 2px; display: block; content: ' '; position: absolute; transform:rotate(45deg); background-color: #52b7fa; top:-3px; right:-2px }
+.arrow-blue:before { width: 10px; height: 2px; display: block; content: ' '; position: absolute; transform:rotate(-45deg); background-color: #52b7fa; top:3px; right:-2px }
+
+/* CONTENT */
+.description {text-align: center; font-size: 14px; color: #9b9b9b; line-height: 20px; margin:5% 0; text-transform: uppercase; font-weight: 200;}
+.description span { font-size: 18px; color: #52b7fa;}
+
+/* FOOTER */
+Footer p {text-align: center; width: 100%; color: #9b9b9b; font-weight: 200; margin: 8% 0; letter-spacing: 1px; font-size: 12px}
+
+/* BUTTON INTERNO */
+.btn_interno a { display: table; margin:0 auto}
+.btn_interno .circle { width: 60px; height: 60px; border-radius: 60px; border: 2px solid rgba(229, 229, 229, 1);  justify-content: center;}
+.btn_interno .circle span { position: absolute; top:35%; left: 50%; text-align: center; color: #52b7fa;
+    transform: translate(-50%, 0);
+    -webkit-transform: translate(-50%, 0);
+    -o-transform: translate(-50%, 0);
+    -ms-transform: translate(-50%, 0);
+ }
+
+/* PHOTO PERFIL */
+.photo img { border-radius: 100%; border: 1px solid #52b7fa; padding: 15px; }
+
+/* MENU ICONS */
+.menu-icons { margin: 0 4%}
+.menu-icons p { color:#52b7fa; font-size: 12px; letter-spacing: 1px; line-height: 15px; font-weight: 200}
+
+/* NAV STEPS */
+.circle-step { width: 30px; height: 30px; border-radius: 21px; border: 1px solid rgba(82, 183, 250, 1); position: relative; margin-top100px; text-align: center; padding-top: 4px; color: #52b7fa}
+.line-step { width: 30px; height:1px; position: absolute; background-color: #52b7fa; top:50%; left: 80%}
+.nav-steps {}
+.inactive .circle-step  { border: 1px solid rgba(229, 229, 229, 1) !important; color: rgba(229, 229, 229, 1)}
+.inactive .line-step { background-color: rgba(229, 229, 229, 1) !important;}
+
+/* COMMON */
+.margin-top-15 {margin-top: 15px}
+.margin-top-20 {margin-top: 20px}
+.margin-top-40 {margin-top: 40px}
+.margin-bottom-50 {margin-bottom: 50px}
+.margin-topbot-5prct { margin:5% 0;}
+.margin-topbot-3prct { margin:3% 0;}
+.margin-0 {margin:0 auto}
+.text-center {text-align: center}
+.col-centered { display:inline-block; float:none;}
+.maxw-100 {max-width: 100%}
+
+/* MASC & FEM */
+.mascfem {font-size: 14px; color: #9b9b9b;font-weight: 300; margin-top: 10px;}
+
+/* DADOS USER */
+.dados-user ul { font-size: 14px; color: #9b9b9b;font-weight: 300; margin-top: 15px}
+.dados-user ul li { line-height: 40px}
+.dados-user ul li input { margin-right: 10px}
