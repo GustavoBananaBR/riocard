@@ -46,7 +46,7 @@ Footer p {text-align: center; width: 100%; color: #9b9b9b; font-weight: 200; mar
 
 /* MENU ICONS */
 .menu-icons { margin: 0 4%}
-.menu-icons p { color:#52b7fa; font-size: 12px; letter-spacing: 1px; line-height: 15px; font-weight: 200}
+.menu-icons p { color:#52b7fa; font-size: 12px; letter-spacing: 1px; line-height: 15px; font-weight: 400}
 
 /* NAV STEPS */
 .circle-step { width: 30px; height: 30px; border-radius: 21px; border: 1px solid rgba(82, 183, 250, 1); position: relative; margin-top100px; text-align: center; padding-top: 4px; color: #52b7fa}
